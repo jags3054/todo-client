@@ -1,0 +1,78 @@
+.addtask{
+    border: 1px solid black;
+ border-radius: 10px;
+ margin-top: 10px;
+ }
+  .task-title{
+     border: none;
+     width: 80%;
+     
+ }
+  .task-title:focus{
+     outline: none;
+     border: none;
+ }
+  .task-date{
+     border: 1px solid rgb(155, 248, 155);
+     width:25%;
+     border-radius: 10px;
+     
+ }
+  .task-date:focus{
+     outline: none;
+ }
+ 
+.btn #btnadd
+{
+background-color: hsl(5, 62%, 52%);
+border: none;
+box-shadow: none;
+
+}
+.btn #btncancel
+{
+background-color: #FFFFFF;
+color: black;
+border: none;
+box-shadow: none;
+}
+.btn #btncancel:hover
+{
+text-decoration:underline;
+}
+
+#addicon:hover{
+       color: #DB4C3F;
+      cursor: pointer;
+       
+}
+.toast-delete{
+    position:absolute;
+    top: 0;
+right:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 799px) {
+
+  .task-date{
+    width: auto;
+  }
+  .spinner{
+    position:absolute;
+    top:150px;
+    left:100px
+  }
+  
+  }

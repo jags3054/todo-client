@@ -1,0 +1,36 @@
+.quick-add{
+    height: 130px;
+     width: 100%;
+      border: 1px solid black;
+   border-radius: 10px;
+   margin-top: 10px;
+   }
+   .quick-add .task-title{
+       border: none;
+       width: 90%;
+       
+   }
+   .quick-add .task-title:focus{
+       outline: none;
+   }
+   .quick-add .task-date{
+       border: 1px solid rgb(155, 248, 155);
+       width:40%;
+       border-radius: 10px;
+       
+   }
+   .quick-add .task-date:focus{
+       outline: none;
+   }
+   #btnadd{
+       border: none;
+       box-shadow: none;
+       background-color: #DB4C3F;
+   }
+   
+@media screen and (max-width: 799px) {
+
+    .quick-add .task-date{
+      width: 50%;
+    }
+}

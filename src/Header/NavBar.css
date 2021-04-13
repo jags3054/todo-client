@@ -1,0 +1,112 @@
+.navbar{
+  background-color:#DB4C3F;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+ align-items: center;
+  
+}
+.menu-bars{
+ margin-left: 2rem;
+ font-size: 1rem;
+ background: none;
+}
+
+.homebtn{
+ margin: 0 1rem;
+}
+.quick-addbtn{
+ position: absolute;
+right: 2rem;
+}
+.dateonicon{
+  position:absolute;
+  top: 39px;
+  left: 92.5px;
+  font-size: 8px;
+  color: green;
+}
+
+.nav-menu{
+ /* background-color: #ECECEC;
+ width: 250px;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ position: fixed;
+ top: 50;
+   /* left:-250px ;     
+ transition: 850ms; */
+
+ position: fixed;
+ left: -250px;
+ width: 250px;
+ padding: 1rem;
+ transition: 0.3s all ease;
+ z-index: 1000;
+ height: 100vh;
+ background: #FAFAFA;
+
+}
+.nav-menu.active{
+ left: 0px;
+
+}
+.nav-text{
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ list-style: none;
+ padding: 8px 0px 8px 16px;
+ height: 50px;
+}
+.nav-text a{
+ text-decoration: none;
+ color: rgb(56, 28, 28);
+  font-size: 18px;
+  width: 200px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+ padding: 0 16px;
+ border-radius: 4px;
+ 
+}
+.nav-text a:hover{
+ background-color:#ECECEC;
+
+}
+
+.nav-menu-items{
+ width: 100%;
+}
+
+.navbar input[type=text] {
+ width: 200px;
+ border: 0;
+ height: 30px;
+ border-radius: 3px;
+ -webkit-transition: width 0.4s ease-in-out;
+ transition: width 0.4s ease-in-out;
+ background: #E27065;
+}
+
+/* When the input field gets focus, change its width to 100%*/
+.navbar input[type=text]:focus {
+ /* width: 20%; */
+ border: 0;
+ outline: 0;
+ background: #FAFAFA;
+ 
+} 
+.navbar input[type=text]:hover{
+   background: #FAFAFA;
+}
+
+@media screen and (max-width: 799px) {
+
+  .navbar input[type=text] {
+    width: 100px;
+   }
+  
+  }

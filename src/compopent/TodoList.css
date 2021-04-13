@@ -1,0 +1,11 @@
+#btnupdate
+{
+    background-color: #DB4C3F;
+border: none;
+box-shadow: none;
+}
+.toast-delete{
+    position:absolute;
+    top:0;
+    right:0;
+}
